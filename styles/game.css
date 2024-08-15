@@ -15,7 +15,21 @@ body{
    align-items: center;
    justify-content: space-around;                         
 }
-/* van start here */
+.mixed-color{
+  background-image: linear-gradient(#F948B2,#8758F1); 
+ color: transparent;     
+  background-clip: text;                              
+ }
+ .shared-h4{
+  font-size:2.5rem;
+  font-weight: 600;                            
+ }
+ .dark-2{
+  color: rgba(83, 76, 100, 0.697);
+  margin-bottom: 20px; 
+   margin-top: 20px;   
+  }
+/* nav start here */
 .navbar{
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
  background-image: linear-gradient(#E2DAD6,#F5EDED);                                
@@ -40,18 +54,9 @@ border: none;
    justify-content: space-between;  
    background-image: linear-gradient(#FFEAE3,#FFCBCB);                      
 }
-.shared-h4{
- font-size:2.5rem;
- font-weight: 600;                            
-}
 .goat{
 font-size: 5rem;
 font-weight: 800;                       
-}
-.mixed-color{
- background-image: linear-gradient(#F948B2,#8758F1); 
-color: transparent;     
- background-clip: text;                              
 }
 .banner-text p{
   margin-bottom: 10px;                            
@@ -82,13 +87,10 @@ border-radius: 30px;
  width: 400px;  
  text-align: right;                        
 }
-.gamer-text p{
+/* .gamer-text p{
  margin-bottom: 20px; 
  margin-top: 20px;                            
-}
-.dark-2{
-color: rgba(83, 76, 100, 0.697);
-}
+} */
 .dark-3{
 color: #AD88C6;
 }
@@ -126,4 +128,52 @@ font-weight: 700;
 }
 .online-card img:hover+.hober-play{
   display: block;
+}/* online card ends here */
+/* play instantly start here */
+.play-instantly-container{
+  width: 1000px;
+  margin-left:235px ;
+  margin-top: 50px;
 }
+.play-text{
+  width: 300px;
+  text-align: right;
+}
+.play-img img{
+  width: 450px;
+  height: 480px;
+  margin-left: 250px;
+  position: relative;
+}
+.play-card img{
+height: 220px;
+width: 200px;
+position: absolute;
+margin-top: -220px;
+margin-left: 150px;
+}
+/* play instant ends here */
+/* play game online start here */
+.play-game-container{
+  width: 1000px;
+  margin-right:235px ;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+.play-game-text{
+  width: 310px;
+}
+.play-game-img img{
+  width: 450px;
+  height: 480px;
+  position: relative;
+  margin-right: 235px;
+}
+.play-game-card img{
+  height: 220px;
+width: 200px;
+position: absolute;
+margin-top: -220px;
+margin-left: 350px;
+}
+/* play game online ends here */
