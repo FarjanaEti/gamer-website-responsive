@@ -3,8 +3,7 @@
   padding: 0;
   box-sizing: border-box;                         
 }
-body{
- border: 1px solid darkgreen;      
+body{     
  max-width: 90%;            
  margin: 0 auto;  
  background: linear-gradient(90.00deg, rgba(255, 66, 227, 0.135) 13.134%,rgba(255, 66, 164, 0.119) 87.942%);           
@@ -49,7 +48,7 @@ border: none;
 }
 /* nav ends here */
 /* banner start here */
-.banner{
+.banner,.career-container{
    display: flex;    
    justify-content: space-between;  
    background-image: linear-gradient(#FFEAE3,#FFCBCB);                      
@@ -156,9 +155,7 @@ margin-left: 150px;
 /* play game online start here */
 .play-game-container{
   width: 1000px;
-  margin-right:235px ;
-  margin-top: 50px;
-  margin-left: 120px;
+  margin: 50px 235px 50px 120px;
 }
 .play-game-text{
   width: 310px;
@@ -177,3 +174,98 @@ margin-top: -220px;
 margin-left: 350px;
 }
 /* play game online ends here */
+/* careers start here */
+.career-container{
+  color: #F8EDED;
+  width: 100%;
+ height: 500px;
+background-repeat: no-repeat;
+background-blend-mode: overlay; 
+background-image: linear-gradient(#E3A5C7,#FFCBCB);                      
+}
+.career-text{
+  width: 500px;
+  margin: 100px 150px;
+}
+.career-img{
+ 
+}
+.career-text p{
+  margin: 10px 0px;
+}
+.career-list{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.career-list-left{
+  width: 170px;
+ font-size: 1.2rem;
+}
+.career-list-right{
+ width: 183px;
+ text-align: right;
+ font-size: 1.2rem;
+}
+.list-btn{
+  border-radius: 40px;
+  height: 30px;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  background: linear-gradient(#A0DEFF,#E3A5C7);       
+}
+/* careers ends here  */
+/*game name start here  */
+.games-name{
+  width: 100%;
+  padding: 50px;
+  height: 200px;
+  background:linear-gradient(#E3A5C7,#B692C2);
+}
+.btn{
+  align-items: center;
+  border-radius: 50px;
+  display: flex;
+  gap: 10px;
+  background-color: #E3A5C7;
+  border: none;
+  width: 180px;
+  color: aliceblue;
+}
+.game-1{
+  margin-left: 80px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 10px;
+}
+/* games ends here */
+/* footer start here */
+.flex-2{
+  display: flex;
+  gap: 20px;
+}
+footer{
+  text-align: center;
+ background-color: #D2649A;
+}
+.footer-container{
+  width: 600px;
+  margin: 0 auto;
+}
+.footer-container p{
+color: #E2DAD6;
+margin: 10px;
+}
+.footer-container i{
+color: #E2DAD6;
+margin: 10px;
+}
+.nav-again{
+  margin-left: 200px;
+  color: #F5EDED;
+}
+.color-2{
+  color: #8E3E63;
+}
+/* footer ends here */
