@@ -48,3 +48,6 @@ Open index.html:
 
 (b).https://github.com/FarjanaEti/gamer-website-responsive/blob/main/index.html
 
+Live Link:
+https://farjanaeti.github.io/gamer-website-responsive/
+
