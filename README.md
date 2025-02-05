@@ -2,6 +2,7 @@
 
 
 A responsive and interactive gaming website featuring game-related content, online games, and career opportunities.
+
 ![Screenshot 2025-02-05 110955](https://github.com/user-attachments/assets/8de51fc3-a0f3-457c-80a2-ccc13609ac53)
 
 ***Technologies Used**
@@ -39,3 +40,11 @@ Footer Section: Includes navigation links, social media icons, and policy inform
 --Google Fonts - For custom typography.
 
 **How to Use**
+Clone the repository:
+
+(a).git clone [https://github.com/your-repo/gaming-page.git](https://github.com/FarjanaEti/gamer-website-responsive.git)
+
+Open index.html:
+
+(b).https://github.com/FarjanaEti/gamer-website-responsive/blob/main/index.html
+
